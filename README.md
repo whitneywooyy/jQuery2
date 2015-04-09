@@ -188,7 +188,7 @@ We will now call a jQuery event that calls the addTask function when we click th
 
 Finally let's make it so that we can open and close the new task form with the newListItem and Cancel button. 
 
-*app.js*
+*app.js*	
 
 	//Opens form
     $('#newListItem').on('click', function () {
@@ -244,7 +244,7 @@ If you remember, when we created our task constructor we took in the parameter f
 First let's make a function that allows us to change the status of an item from 'new' to 'inProgress'. 
 
 *app.js*
-
+	
 	$(document).on('click', '#item', function(e) {
 		e.preventDefault();
 
